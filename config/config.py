@@ -10,7 +10,7 @@ def signFilter(poi):
         if poi['Text4'] == '-- RENDER --':
             return "\n".join([poi['Text1'], poi['Text2'], poi['Text3'], poi['Text4']])
 
-worlds['minecraft'] = "/home/minecraft/server/world"
+worlds['minecraft'] = "/home/minecraft/server/one"
 outputdir = "/home/minecraft/render/"
 
 markers = [
