@@ -11,5 +11,5 @@ fi
 wget https://s3.amazonaws.com/Minecraft.Download/versions/${MINECRAFT_VERSION}/${MINECRAFT_VERSION}.jar -P /home/minecraft/.minecraft/versions/${MINECRAFT_VERSION}/
 
 # Run the world renders (One pass to make map, one to generate points of interests)
-overviewer.py --config /home/minecraft/config.py
-overviewer.py --config /home/minecraft/config.py --genpoi
+overviewer.py --config /home/minecraft/server/overviewer.py
+overviewer.py --config /home/minecraft/server/config.py --genpoi

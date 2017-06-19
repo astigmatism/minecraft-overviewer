@@ -21,7 +21,7 @@ RUN echo "deb http://overviewer.org/debian ./" >> /etc/apt/sources.list && \
     useradd -m minecraft && \
     mkdir -p /home/minecraft/render /home/minecraft/server
 
-COPY config/config.py /home/minecraft/config.py
+# COPY config/config.py /home/minecraft/config.py
 COPY entrypoint.sh /home/minecraft/entrypoint.sh
 
 RUN chown minecraft:minecraft -R /home/minecraft/
